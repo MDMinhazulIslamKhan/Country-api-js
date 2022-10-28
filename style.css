@@ -1,0 +1,22 @@
+.country {
+    background-color: #e3f2f3;
+    padding: 20px 36px;
+    border: 1px solid #6dbbc5;
+    border-radius: 10px;
+}
+
+#countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+#details {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
